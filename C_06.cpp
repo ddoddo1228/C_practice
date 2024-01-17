@@ -7,7 +7,7 @@ int main(void) {
     printf("USD?: ");
     scanf("%d", &x);
 
-    printf("��/�޷� ȯ��?: ");
+    printf("¿ø/´Þ·¯ È¯À²?: ");
     scanf("%f", &y);
 
     printf("USD %d = KRW %f\n", x, x * y); 
