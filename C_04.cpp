@@ -4,10 +4,10 @@ int main(void) {
     float x, y, z;
     char op;
 
-    printf("µÎ °³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("ë‘ ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
     scanf("%f %f", &x, &y);
 
-    printf("µÎ °³ÀÇ ¼ö¸¦ °è»êÇÒ ¿¬»êÀÚ(+, -, *, /)¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("ë‘ ê°œì˜ ìˆ˜ë¥¼ ê³„ì‚°í•  ì—°ì‚°ì(+, -, *, /)ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
     scanf(" %c", &op);
 
     if (op == '+')
@@ -19,9 +19,9 @@ int main(void) {
     else if (op == '*')
         z = x * y;
 
-    printf("xÀÇ µ¥ÀÌÅÍ: %.f\n", x);
-    printf("yÀÇ µ¥ÀÌÅÍ: %.f\n", y);
-    printf("%.f %c %.f = %.2f ÀÔ´Ï´Ù.\n", x, op, y, z);
+    printf("xì˜ ë°ì´í„°: %.f\n", x);
+    printf("yì˜ ë°ì´í„°: %.f\n", y);
+    printf("%.f %c %.f = %.2f ì…ë‹ˆë‹¤.\n", x, op, y, z);
 
     return 0;
 }
