@@ -4,7 +4,7 @@ int main(void) {
     int yd;
     double m;
 
-    printf("±æÀÌ (yd)?: ");
+    printf("Â±Ã¦Ã€ÃŒ (yd)?: ");
     scanf("%d", &yd);
 
     m = yd * 0.9144;
